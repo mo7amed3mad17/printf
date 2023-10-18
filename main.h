@@ -21,4 +21,16 @@ int print_string(char *cha);
 int print_percent(va_list args);
 int print_digit(va_list args);
 int print_rev(va_list args);
+int put_things(char character);
+
+int print_reverse_string(va_list argument);
+
+int print_module(va_list argument);
+
+int print_digits(va_list args);
+
+int print_character(va_list argument);
+
+int get_the_function(char con_specification, va_list args);
+
 #endif
